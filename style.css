@@ -1,0 +1,167 @@
+body{
+	font-family: raleway,sans-serif;
+	margin-top: -20px; 
+	
+}
+#landing{
+	background-image: url(images/background.jpg) ;
+	background-size:cover;
+	height: 750px
+
+}
+
+*{
+	padding:0px;
+	margin:0px;
+}
+/* landing page css*/
+#maindiv{
+	width:100%;
+	height: 700px;
+
+
+}
+
+#navdiv ul{
+width: 100%;`
+height: 50px;
+line-height: 50px;
+color: black;
+font-size: 17px;
+position:absolute;
+padding-left: 25px;
+text-align: center;
+background-color:white;
+box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+
+
+
+
+}
+
+#navdiv ul li{
+	list-style: none;
+	display: inline-block;
+	float:right;
+	padding:0px;
+	margin-top: 28px;
+	margin-right: 35px;
+	
+
+}
+
+#navdiv ul a{
+	text-decoration: none;
+	color:black;
+
+}
+
+#navdiv ul a:hover{
+color: #f2b020;
+}
+
+#mainheader h1{
+color:white;
+font-family: arial;
+font-size: 55px;
+margin-top: -400px;
+
+text-align: center;
+}
+
+#mainsub{
+
+color:white;
+font-size: 18px;
+margin-left: 475px;
+}
+
+#mainlogo{
+margin-top: -450px;
+margin-left: 450px;
+}
+
+#tagline{
+color: white;
+font-size: 20px;
+margin-left: 575px;
+margin-top: -10px;
+font-weight: lighter;
+
+
+}
+
+
+/*second page css*/
+
+
+#aboutus{
+	font-family: 'Calibri', sans-serif;
+	font-weight: lighter;
+	opacity: 0.9;
+	font-size: 25px;
+	padding-top: 500px;
+	padding-bottom: 300px;
+	padding-left: 150px;
+	padding-right: 150px;
+	color: black;
+
+
+}
+
+/* Contact Us CSS */;
+
+.contact{
+    text-align: center;
+}
+
+.contact p{
+    padding-bottom: 40px;
+    color: #737373;
+    text-align: center;
+}
+
+.contact h2{
+    font-size: 35px;
+    color: #4c4c4c;
+    text-align: center;
+}
+
+.contact .input-group{
+    margin-bottom: 25px;
+}
+
+.contact .form-control{
+    border-radius: 0 !important;
+}
+
+.contact span{
+    border-radius: 0 !important;
+}
+
+.contact .btn{
+    border-radius: 0;
+    width: 100%;
+    font-size: 15px;
+    background-color: #f08080;
+    color: #fff;
+
+}
+
+.contact .btn:hover{
+    background-color: #a85959;
+    color: #fff !important;
+}
+
+
+
+////////////////////////////////////////////////
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
